@@ -53,7 +53,7 @@ jobs:
         run: npx drizzle-kit push
       
       - name: Start application
-        run: npm start > app.log 2>&1 &
+        run: npm run dev > app.log 2>&1 &
         env:
           NODE_ENV: test
           
