@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1780482431285,
+      "tag": "0000_productive_sister_grimm",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1780485206628,
+      "tag": "0001_productive_gamora",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1780485465935,
+      "tag": "0002_mighty_sway",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1780882892590,
+      "tag": "0003_gigantic_master_chief",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1781086499645,
+      "tag": "0004_parched_bromley",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1781384582282,
+      "tag": "0005_slow_galactus",
+      "breakpoints": true
+    }
+  ]
+}
