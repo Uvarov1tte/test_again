@@ -51,10 +51,16 @@ jobs:
         env:
           NODE_ENV: test
         run: npx drizzle-kit push
-
-      - name: Run Playwright tests
+      
+      - name: Start application
+        run: npm start > app.log 2>&1 &
         env:
           NODE_ENV: test
+          
+      - name: Wait for application to be ready
+        run: npx wait-on http://localhost:3000 -t 30000
+
+      - name: Run Playwright tests
         run: npx playwright test
 
       - uses: actions/upload-artifact@v4
